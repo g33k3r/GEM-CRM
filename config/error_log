@@ -1,0 +1,12 @@
+[07-Jan-2025 23:24:57 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/coupee36/agents.s2networksolutions.com/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/coupee36/agents.s2networksolutions.com/config/database.php on line 18
+[25-Jan-2025 12:21:59 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/coupee36/agents.s2networksolutions.com/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/coupee36/agents.s2networksolutions.com/config/app.php on line 16
+[25-Jan-2025 12:22:07 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home1/coupee36/agents.s2networksolutions.com/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/coupee36/agents.s2networksolutions.com/config/app.php on line 16
