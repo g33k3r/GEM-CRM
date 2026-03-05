@@ -12,11 +12,11 @@
     <!-- <link rel="shortcut icon" href="assets/images/favicon.ico"> -->
 
     <!-- App css -->
-    <link href="{{ asset('public/') }}/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('public/') }}/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('public/') }}/assets/css/app.min.css" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('public/') }}/assets/libs/simple-datatables/style.css" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('public/') }}/assets/libs/fullcalendar/main.min.css" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('') }}/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('') }}/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('') }}/assets/css/app.min.css" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('') }}/assets/libs/simple-datatables/style.css" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('') }}/assets/libs/fullcalendar/main.min.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
 
     <!-- <link href="assets/libs/mobius1-selectr/selectr.min.css" rel="stylesheet" type="text/css" />
@@ -27,7 +27,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     {{--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>--}}
-    <script src="{{ asset('public/') }}/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ asset('') }}/assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body data-layout="horizontal" class="dark-topbar">
@@ -1461,7 +1461,7 @@
         const uploadBtn = document.getElementById('uploadBtn');
         const removeBtn = document.getElementById('removeBtn');
         const preview = document.getElementById('preview');
-        //const defaultAvatar = "{{ asset('public/uploads') . '/defaultProfilePic.jpg' }}";
+        //const defaultAvatar = "{{ asset('uploads') . '/defaultProfilePic.jpg' }}";
         let defaultAvatar = "";
         if(preview){
             defaultAvatar = preview.src;
@@ -1493,16 +1493,16 @@
 </script>
 
 
-<script src="{{ asset('public/') }}/assets/libs/simplebar/simplebar.min.js"></script>
-<script src="{{ asset('public/') }}/assets/libs/feather-icons/feather.min.js"></script>
-<script src="{{ asset('public/') }}/assets/libs/apexcharts/apexcharts.min.js"></script>
-<script src="{{ asset('public/') }}/assets/js/pages/hospital-index.init.js"></script>
-<script src="{{ asset('public/') }}/assets/libs/simple-datatables/umd/simple-datatables.js"></script>
-<script src="{{ asset('public/') }}/assets/libs/fullcalendar/main.min.js"></script>
+<script src="{{ asset('') }}/assets/libs/simplebar/simplebar.min.js"></script>
+<script src="{{ asset('') }}/assets/libs/feather-icons/feather.min.js"></script>
+<script src="{{ asset('') }}/assets/libs/apexcharts/apexcharts.min.js"></script>
+<script src="{{ asset('') }}/assets/js/pages/hospital-index.init.js"></script>
+<script src="{{ asset('') }}/assets/libs/simple-datatables/umd/simple-datatables.js"></script>
+<script src="{{ asset('') }}/assets/libs/fullcalendar/main.min.js"></script>
 <!-- <script src="assets/js/pages/calendar.init.js"></script> -->
 <!-- <script src="assets/js/pages/file-upload.init.js"></script> -->
 <!-- App js -->
-<script src="{{ asset('public/') }}/assets/js/app.js"></script>
+<script src="{{ asset('') }}/assets/js/app.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
