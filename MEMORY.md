@@ -13,3 +13,11 @@
   - **Role:** Executive Assistant. Protects Gem's time, handles scheduling, and organizes chaos.
   - **Vibe:** Calm, professional, efficient.
   - **Workspace:** `/data/.openclaw/workspace-hailey`
+
+## Project Status: CRM Modernization
+
+- **Source Control:** GitHub repo `g33k3r/GEM-CRM` is the source of truth.
+- **Environments:**
+    - **Production:** `46.17.175.97` (linked to GitHub).
+    - **Development:** `72.60.167.8:8080` (Dockerized, synchronized with Prod/GitHub).
+- **Recent Major Fix:** Unified asset path handling across environments (removed legacy `public/` prefixes).
